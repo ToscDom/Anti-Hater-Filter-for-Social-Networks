@@ -15,5 +15,5 @@ The code uses the Keras Tokenizer to tokenize the text data and convert it into 
 The model architecture consists of multiple channels with different kernel sizes, enabling the simultaneous processing of various n-grams. It includes a word embedding layer, 1D-convolutional layers, dropout, max-pooling, a bidirectional GRU layer, and fully connected layers to effectively capture diverse linguistic patterns.
 
 ## Model Training and Evaluation: 
-The code trains the model using the preprocessed and augmented data, with the provision to save and load the trained model. It also includes the evaluation of the model's performance on the test set, including the calculation of loss, accuracy, and the visualization of confusion matrices for each label.
+The code trains the model using the preprocessed and augmented data, with the provision to save and load the trained model. It also includes the evaluation of the model's performance on the test set, including the calculation of loss, f1 score, and the visualization of confusion matrices for each label.
 
