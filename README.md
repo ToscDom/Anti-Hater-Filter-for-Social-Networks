@@ -1,6 +1,7 @@
 # Anti-Hater Filter for Social Networks
 This project aims to develop an automated moderation system based on Deep Learning techniques, capable of identifying and filtering toxic, offensive, or inappropriate comments in real-time within an online platform. The model is designed to classify comments into multiple relevant categories, ensuring effective management of harmful content without compromising the user experience.
-Key Features
+
+# Key Features
 
 ## Text Preprocessing: 
 The code includes various preprocessing steps to clean and normalize the textual data, such as removing URLs, HTML tags, non-alphabetic characters, tokenizing, removing stopwords, and lemmatizing words.
